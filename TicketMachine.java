@@ -35,14 +35,14 @@ public class TicketMachine
      */
     public int getPrice()
     {
-        return price;
+       return price; 
     }
 
     /**
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getBalance()
+    public int getAmount()
     {
         return balance;
     }
@@ -74,5 +74,23 @@ public class TicketMachine
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+    
+    /**
+     * Increase score by the given number of points.
+     */
+    public void increaseScore(int points)
+    {
+        //TODO: Increase score by the value in points.
+    
+    }
+    
+    /**
+     * Reduce price by the given amount.
+     */
+    public void discount(int amount)
+    {
+        //TODO: Subtract amount from price.
+
     }
 }
