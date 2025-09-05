@@ -75,8 +75,8 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
-    
-    /**
+
+     /**
      * Increase score by the given number of points.
      */
     public void increaseScore(int points)
