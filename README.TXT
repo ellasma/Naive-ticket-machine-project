@@ -33,3 +33,14 @@ private int count: int
 private Student representation: int
 private Server host: void
 13.
+14.
+15.
+Yes, it does matter in which order the three words in private int price appear in.
+16.
+Yes, it is always necessary to have a semicolon at the end of a field declaration.
+25.
+No, the return statement in the body of the method also need to be changed for the code to compile.
+27.
+The error message: missing return statement.
+29.
+The insertMoney and printTicket methods do not have a return statements, because the return type is void.
